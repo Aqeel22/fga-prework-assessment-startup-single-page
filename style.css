@@ -1,49 +1,228 @@
+body {
+  font-family: helvetica;
+}
 
+/* Container*/
 #container{
-borde:2px solid black
+  margin:0 auto;
+  width:1333px;
+
 }
+/* Text Manipulation*/
+h1,h2,h3,h4,h5,h6,li,p{
+    color: #454B54;
+  }
+  .texts{
+    margin: 0 auto 30px;
+    width: 560px;
+    display: block;
+    text-align: center;
+
+  }
+  .texts h2{
+    font-size:36px;
+  }
+  .texts h4{
+    font-size:16px;
+    color:#95989A;
+  }
+
+  /* Button Manipulation */
+button{
+border-radius: 10%;
+color:#454B54;
+font-size: 16px;
+}
+/* Header */
 #topsection{
-
+  margin-bottom: 150px;
+  margin-top: 50px;
 }
-.gray{
-
+#topsection img{
+  display: inline-block;
+  position: absolute;
 }
-#signup{
-
+#topsection ul{
+    display: inline-block;
+    margin-left:600px;
 }
+#topsection li{
+  display:inline;
+  font-size: 14px;
+  padding: 15px;
+}
+#marquee-text{
+  margin: 0 auto;
+  width:780px;
+}
+#marquee-text h1{
+  font-size: 40px;
+  text-align: center;
+}
+#marquee-text p{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#marquee-text img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Extended Logo*/
 #extended-logo{
+  margin: 0 auto;
+  width: 400px;
+}
+#extended-logo h5{
+  text-align: center;
+}
+aside{
+  background-color: #C7D7E2;
+  margin-bottom: 100px;
+}
+#sidesection h5,h6{
+  text-align: left;
+  width: 700px;
+  display:inline-block;
+}
+/* ADD HTML CODE FOR PHONE SECTION
+*/
+figure{
+  border:2px solid red;
+}
+
+#testimonal{
+  background-color: #C7D7E2;
+  margin-bottom: 100px;
+}
+/* Go back to edit moving and fixing images on this section
+#testimonal #test-face{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+#testimonal img{
+  margin-left: auto;
+  margin-right: auto;
 
 }
-#services{
-
+#testimonal p{
+  text-align: center;
 }
-#follow-now{
-
+ .name p {
+  color:#95989A;
 }
+
+/*Our Teaam Section */
 #our-team{
+  margin-bottom: 100px;
+}
+.team-mates{
+  display: inline-block;
+  width: 22%;
+  margin-left: 15px;
+}
+.team-mates img{
+  background-color: #C7D7E2;
+}
+.team-mates p{
+  background-color: #454B54;
+  color: white;
+}
+
+/* Pricing Ad Section */
+.pricingad{
 
 }
-#pricing{
+.price{
+  display: inline-block;
+  width: 33%;
+  margin-bottom: 100px;
+}
+.price h2,h4{
+  text-align: center;
 
 }
-#price-table{
+.price ul{
+  text-align: center;
+}
+
+
+/* Contact Section */
+#contact{
+  margin-bottom: 50px;
+  background-image: url('/assests/map2x.png');
 
 }
-.offering{
 
+
+
+
+/* Our clients */
+.our-clients img{
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 50px;
+  margin-bottom: 100px;
 }
-.start-now{
 
+
+
+/* footer */
+.menu {
+width: 8%;
+display: inline-block;
+list-style: none;
+margin-left: 150px;
+margin-right: -140px;
+font-family: helvetica;
+font-size: 12px;
+line-height: 20px;
 }
-.our-clients{
-
+.menu li {
+  list-style: none;
 }
-.footer-sect1{
-
+.menu h5 {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
-.footer-sect2{
-
+.footer-info {
+  width: 20%;
+  display: inline-block;
+  margin-left: 80px;
+  font-family: helvetica;
+  font-size: 12px;
+  margin-bottom: 45px;
+  margin-top: 70px;
 }
-.footer-sect3{
-
+.footer-info li , .footer-info h5{
+  list-style: none;
+}
+footer ul{
+  display: inline-block;
+  list-style: none;
+}
+footer {
+  background-color: #4F555E;
+  color: white;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#footer-logo {
+  width: 45%;
+}
+#privacy {
+  margin-left: 250px;
+  padding-left: 200px;
+}
+.copyright  {
+  width: 40%;
+  display: inline-block;
+  font-size: 12px;
+}
+.copyright li {
+  text-align: right;
 }
